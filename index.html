@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Frontend Mentor | Profile card component</title>
+</head>
+
+<body class="bg-images grid h-screen place-content-center bg-primary-700 font-kumbh text-[18px] font-normal">
+  <main class="mx-auto min-w-[340px] max-w-[340px] overflow-hidden rounded-2xl bg-white text-primary-400">
+    <div class="relative top-0 left-0 mb-16 w-full">
+      <img src="/bg-pattern-card.svg" alt="" aria-hidden="true" class="relative top-0 left-0" />
+      <img src="/image-victor.jpg" alt="profile picture"
+        class="absolute left-1/3 top-[60%] mx-auto rounded-full border-[5px] border-solid border-white" />
+    </div>
+    <div class="pt-2 text-center">
+      <div class="inline-flex gap-2">
+        <p class="font-bold text-primary-900">Victor Crest</p>
+        <p>26</p>
+      </div>
+      <p class="pt-1 pb-6 text-[14px]">London</p>
+      <hr class="text-neutral-100" />
+      <ul class="flex flex-row gap-6 p-5">
+        <li class="flex-1">
+          <p class="font-bold text-primary-900">80K</p>
+          <p class="text-[10px] tracking-widest">Followers</p>
+        </li>
+        <li>
+          <p class="font-bold text-primary-900">803K</p>
+          <p class="text-[10px] tracking-widest">Likes</p>
+        </li>
+        <li class="flex-1">
+          <p class="font-bold text-primary-900">1.4K</p>
+          <p class="text-[10px] tracking-widest">Photos</p>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer class="fixed bottom-0 left-0 w-full text-center text-[11px]">
+    Challenge by
+    <a class="text-blue underline" href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ"
+      target="_blank">Frontend Mentor</a>. Coded by
+    <a class="text-blue underline" href="https://twitter.com/jcoertze">Jacques Coertze</a>.
+  </footer>
+</body>
+
+</html>
